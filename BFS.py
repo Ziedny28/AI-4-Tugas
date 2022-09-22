@@ -28,18 +28,6 @@ def bfs(visited,graph,node):
                 visited.append(neighbour)
                 queue.append(neighbour)
         
-        #coba print isi v
-        print("\nvisited: ")
-        for v in visited:
-            print(v, end=" ")
-        print("\n")
-
-        #coba print queue 
-        print("queue: ")
-        for q in queue:
-            print(q, end=" ")
-        print("\n")
-        
 
 print("Hasil penelusuran graf menggunakan BFS:")
 bfs(visited, graph, 'A')
